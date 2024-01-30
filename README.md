@@ -15,24 +15,24 @@ pokemons: [Pokemon]!
 ### Pokemon*
 
 #### Fields
-_id: ID!
-name: String!
-types: [String!]!
-parentIds: [Int!]!
-stats: Stats!
-createdAt: String!
-updatedAt: String!
+- _id: ID!
+- name: String!
+- types: [String!]!
+- parentIds: [Int!]!
+- stats: Stats!
+- createdAt: String!
+- updatedAt: String!
 
 
 ### Stats
 
 #### Fields
-attack: Int!
-defense: Int!
-spAttack: Int!
-spDefense: Int!
-speed: Int!
-hp: Int!
+- attack: Int!
+- defense: Int!
+- spAttack: Int!
+- spDefense: Int!
+- speed: Int!
+- hp: Int!
 
 ## MUTATIONS
 
@@ -44,17 +44,17 @@ createPokemon(pokemonInput: PostPokemonData!): Pokemon!
 ### PostPokemonData
 
 #### Fields
-name: String!
-types: [String!]!
-stats: InputStats!
-parentIds: [Int!]!
+- name: String!
+- types: [String!]!
+- stats: InputStats!
+- parentIds: [Int!]!
 
 ### InputStats
 
 #### Fields
-attack: Int!
-defense: Int!
-spAttack: Int!
-spDefense: Int!
-speed: Int!
-hp: Int!
+- attack: Int!
+- defense: Int!
+- spAttack: Int!
+- spDefense: Int!
+- speed: Int!
+- hp: Int!
